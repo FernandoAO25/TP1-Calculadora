@@ -211,6 +211,7 @@ int main()
         gotoxy(25,13);printf("GRACIAS POR USARME... ADIOOSS!!!  :D \n");//Saludito 
         printf("\n");
         printf("\n");
+         getch();
         } 
       
     }
