@@ -96,7 +96,7 @@ int main()
             system("cls");
             colorDividir();
             if (numB == 0){//Si el dividendo es igual a 0, salta un error.
-                 gotoxy(25,5);printf("ERROR!!!\n\n\t\t\tNO SE PUEDE DIVIDIR POR 0.\n\n\t\t\tDO BETTER SABES!! :p");
+                 gotoxy(25,5);printf("ERROR!!!\n\n\t\t\tNO SE PUEDE DIVIDIR POR 0.\n\n");
 
             }else{         //Si el dividendo no es igual a 0, calcula la division.
                  gotoxy(25,5); printf("La operaci%cn %d/%d = %.2f\n",162,numA,numB,division(numA,numB));
