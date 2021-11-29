@@ -20,8 +20,8 @@ void mostrarMenu (int a, int b){
    gotoxy(5,10);printf("***** ***** *****************     MENU     *************** ***** ***** \n" );
    gotoxy(5,11);printf("   ***** ** ********************************************** ** *****    \n" );
    gotoxy(5,12);printf("   ***** ** ****                                      **** ** *****    \n" );
-   gotoxy(5,13);printf("***** ***** **** 1-> INGRESAR 1ER OPERANDO A=%d        **** ***** *****\n",a);
-   gotoxy(5,14);printf("***** ***** **** 2-> INGRESAR 2DO OPERANDO B=%d        **** ***** *****\n",b);
+   gotoxy(5,13);printf("***** ***** **** 1-> INGRESAR 1ER OPERANDO %d          **** ***** *****\n",a);
+   gotoxy(5,14);printf("***** ***** **** 2-> INGRESAR 2DO OPERANDO %d          **** ***** *****\n",b);
    gotoxy(5,15);printf("   ***** ** **** 3-> CALCULAR LA SUMA                 **** ** *****    \n" );
    gotoxy(5,16);printf("   ***** ** **** 4-> CALCULAR LA RESTA                **** ** *****    \n" );
    gotoxy(5,17);printf("***** ***** **** 5-> CALCULAR LA MULTIPLICACION       **** ***** ***** \n" );
